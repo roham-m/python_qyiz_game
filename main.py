@@ -1,10 +1,10 @@
-from question import questions
+from question import queitions
 
 name = input("whats your name? ")
 
 score = 0
 print("welcome")
-for item in questions:
+for item in queitions:
     answer = input(item["question"])
 
     if answer.lower() == item["answer"]:
@@ -16,12 +16,15 @@ for item in questions:
 
 
 
-print("your score is: ", score, "out of ", len(questions))
+print("your score is: ", score, "out of ", len(queitions))
 
-if score == len(questions):
+if score == len(queitions):
     print("excellent job", name)
 elif score >= 2:
     print("good job", name)
 
 else:
     print("keep praticong")
+
+with open("result.txt", "a") as file:
+    file.write(f"{name} - {score}/{len(queitions)}\n")
