@@ -1,9 +1,9 @@
 import os
 from dotenv import load_dotenv
-from question import queitions
+
 
 load_dotenv()
-admin_password = os.getenv("QUIZ_ADMIN_PASSWORD")
+admin_password = os.getenv("calculator_ADMIN_PASSWORD")
 
 open_admin = input("do u want to open admin mode?   yes/no:  ")
 
@@ -14,7 +14,7 @@ if open_admin.lower() == "yes":
     else:
         print("wrong password")
 
-
+from question import queitions
 name = input("whats your name? ")
 
 score = 0
