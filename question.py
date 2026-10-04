@@ -11,4 +11,12 @@ queitions = [
         "question": "what command starts a  git status? ",
         "answer": "git status",
     }
+    {
+        "question": "what command shows git history? ",
+        "answer": "git log",
+    },
+    {
+        "question": "what command sends commits to github? ",
+        "answer": "git push",
+    }
 ]
