@@ -22,5 +22,5 @@ queitions = [
     {
         "question": "what command shows git branch? ",
         "answer": "git branch",
-    }
+    },
 ]
