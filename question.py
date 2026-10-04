@@ -10,7 +10,7 @@ queitions = [
     {
         "question": "what command starts a  git status? ",
         "answer": "git status",
-    }
+    },
     {
         "question": "what command shows git history? ",
         "answer": "git log",
