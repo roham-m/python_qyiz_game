@@ -43,3 +43,6 @@ else:
 
 with open("result.txt", "a") as file:
     file.write(f"{name} - {score}/{len(queitions)}\n")
+
+
+print("bye")
